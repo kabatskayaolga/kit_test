@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Istok+Web');
+
+
+body{
+	font-family: 'Istok Web', sans-serif;
+}
+body table.compare-list thead th, h1{
+	background: #7ecd69;
+	color: white;
+	padding: 1rem 0;
+	font-weight: 400;
+	font-size: 2rem;
+	text-align: center
+}
+
+table.compare-list td img{
+	max-width: 100%
+}
+
+table.compare-list .add-to-cart td a{
+	background-color: #ed1c24;
+	padding: 7px 25px;
+	color: white;
+	font-weight: 600;
+	font-size: 16px;
+	border-radius: 25px;
+	display: inline-block;
+	border: none;
+	cursor: pointer;
+	text-transform: initial;
+}
+
+table.compare-list .add-to-cart td a:hover,
+table.compare-list .add-to-cart td a:active{
+	color: white;
+}
+table.compare-list tr.image th, table.compare-list tr.image td{
+	height: initial;
+}
